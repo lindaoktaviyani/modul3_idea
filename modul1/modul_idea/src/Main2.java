@@ -1,4 +1,4 @@
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         String namaDepan = "Linda";
         String namaBelakang = "Oktaviyani";
@@ -10,5 +10,8 @@ public class Main {
 
         System.out.println(namaDepan + namaBelakang);
 
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+        System.out.println(uniskaString);
     }
 }
